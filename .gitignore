@@ -39,3 +39,6 @@
 
 # debug information files
 *.dwo
+
+# Out of source build folder
+build
