@@ -31,3 +31,4 @@ target_compile_options(common INTERFACE
 endif()
 
 add_subdirectory(learn_1_6)
+add_subdirectory(learn_1_11)

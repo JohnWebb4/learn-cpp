@@ -4,7 +4,7 @@
 
 namespace learncpp
 {
-    namespace learn1_6
+    namespace learn_1_6
     {
         long cppStandard()
         {
