@@ -9,4 +9,25 @@ enable_testing()
 
 configure_file(learn_cpp_config.h.in learn_cpp_config.h)
 
+add_library(common INTERFACE)
+if (MSVC)
+target_compile_options(common INTERFACE
+	/Zi
+	/permissive-
+	/W4
+	/WX
+)
+else ()
+target_compile_options(common INTERFACE
+	-ggdb
+	-pedantic-errors
+	-Wall
+	-Weffc++
+	-Wextra
+	-Wconversion
+	-Wsign-conversion
+	-Werror
+)
+endif()
+
 add_subdirectory(learn_1_6)
