@@ -2,7 +2,7 @@
 
 namespace learncpp
 {
-    namespace learn_1_11
+    namespace part_1_11
     {
         int double_that_number(int number)
         {

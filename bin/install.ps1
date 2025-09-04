@@ -1,0 +1,3 @@
+python3 -m .venv
+./.venv/Scripts/Activate.ps1
+conan install . --build=missing  --profile=debug

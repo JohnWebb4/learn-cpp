@@ -42,3 +42,9 @@
 
 # Out of source build folder
 build
+
+# Python
+.venv
+
+# Cmake user preset
+CMakeUserPresets.json

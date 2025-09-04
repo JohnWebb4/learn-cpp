@@ -5,9 +5,11 @@ project(LearnCpp VERSION 1.0)
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-enable_testing()
-
 configure_file(learn_cpp_config.h.in learn_cpp_config.h)
+
+find_package(GTest REQUIRED)
+
+enable_testing()
 
 add_library(common INTERFACE)
 if (MSVC)
@@ -30,5 +32,4 @@ target_compile_options(common INTERFACE
 )
 endif()
 
-add_subdirectory(learn_1_6)
-add_subdirectory(learn_1_11)
+add_subdirectory(chapter_1)
