@@ -1,5 +1,5 @@
-#ifndef LEARN_CPP_CODE_1_6_INITIALIZATION
-#define LEARN_CPP_CODE_1_6_INITIALIZATION
+#ifndef LEARN_1_11_PROGRAM
+#define LEARN_1_11_PROGRAM
 
 namespace learncpp {
     namespace learn_1_11 {
