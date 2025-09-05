@@ -42,3 +42,6 @@
 
 # Out of source build folder
 build
+
+# .venv
+.venv

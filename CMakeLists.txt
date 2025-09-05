@@ -7,6 +7,10 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 configure_file(learn_cpp_config.h.in learn_cpp_config.h)
 
+find_package(GTest REQUIRED)
+
+enable_testing()
+
 add_library(common INTERFACE)
 if (MSVC)
 target_compile_options(common INTERFACE

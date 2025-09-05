@@ -2,10 +2,10 @@
 #include <string>
 #include <gtest/gtest.h>
 
-#include "learn_1_6_initialization.h"
+#include "part_6_initialization.h"
 
 // Demonstrate some basic assertions.
-TEST(HelloTest, BasicAssertions) {
+TEST(Chapter1, Part6) {
   // Expect two strings not to be equal.
   EXPECT_STRNE("hello", "world");
   // Expect equality.

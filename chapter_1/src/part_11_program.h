@@ -1,8 +1,8 @@
-#ifndef LEARN_1_11_PROGRAM
-#define LEARN_1_11_PROGRAM
+#ifndef LEARNCPP_PART_1_11_PROGRAM
+#define LEARNCPP_PART_1_11_PROGRAM
 
 namespace learncpp {
-    namespace learn_1_11 {
+    namespace part_1_11 {
         int double_that_number(int number);
         int double_console_input();
     }
