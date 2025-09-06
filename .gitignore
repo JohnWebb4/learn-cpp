@@ -45,3 +45,6 @@ build
 
 # .venv
 .venv
+
+# Cmake user preset
+CMakeUserPresets.json
