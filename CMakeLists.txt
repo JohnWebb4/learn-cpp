@@ -4,6 +4,7 @@ project(LearnCpp VERSION 1.0)
 
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 configure_file(learn_cpp_config.h.in learn_cpp_config.h)
 
