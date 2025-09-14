@@ -1,3 +1,3 @@
 # /usr/bin/env sh
 
-run-clang-tidy -p=./build/Debug -header-filter=.* 
+run-clang-tidy -p=./build -header-filter=.* 
