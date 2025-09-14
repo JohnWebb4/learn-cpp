@@ -5,7 +5,6 @@ add_library(chapter_1 STATIC
 target_link_libraries(chapter_1 PRIVATE common)
 target_include_directories(chapter_1 PUBLIC "${PROJECT_BINARY_DIR}" "./src")
 
-enable_testing()
 add_executable(chapter_1_test
     test/part_6_test.cpp
     test/part_11_test.cpp
