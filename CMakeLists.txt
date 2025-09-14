@@ -8,7 +8,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 configure_file(learn_cpp_config.h.in learn_cpp_config.h)
 
-find_package(GTest REQUIRED)
+find_package(GTest REQUIRED gtest gmock gtest_main gmock_main)
 
 enable_testing()
 
@@ -20,6 +20,7 @@ target_compile_options(common INTERFACE
 	/W4
 	/WX
 )
+set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 else ()
 target_compile_options(common INTERFACE
 	-ggdb
