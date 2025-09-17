@@ -1,5 +1,5 @@
 # /usr/bin/env sh
 
-pushd ./build/Debug
+pushd ./build
 ctest -C Debug
 popd
