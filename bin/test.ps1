@@ -1,3 +1,3 @@
 Push-Location ./build
-ctest
+ctest -C Debug
 Pop-Location
