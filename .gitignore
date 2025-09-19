@@ -50,3 +50,5 @@ build
 CMakeUserPresets.json
 
 xcode
+
+.DS_STORE

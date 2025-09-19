@@ -1,8 +1,5 @@
-#ifndef LEARNCPP_PART_1_6_INITIALIZATION
-#define LEARNCPP_PART_1_6_INITIALIZATION
+#pragma once
 
-namespace learncpp::part_1_6 {
-auto print_cpp_version(const char *executable) -> int;
-} // namespace learncpp::part_1_6
-
-#endif
+namespace learncpp::chapter_1::part_6 {
+    auto print_cpp_version(const char *executable) -> int;
+} // namespace learncpp::chapter_1::part_6

@@ -11,5 +11,5 @@ TEST(Chapter1, Part6) {
   // Expect equality.
   EXPECT_EQ(7 * 6, 42);
 
-  EXPECT_EQ(learncpp::part_1_6::print_cpp_version("HI"), 0);
+  EXPECT_EQ(learncpp::chapter_1::part_6::print_cpp_version("HI"), 0);
 }

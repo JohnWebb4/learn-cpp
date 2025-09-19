@@ -1,9 +1,6 @@
-#ifndef LEARNCPP_PART_1_11_PROGRAM
-#define LEARNCPP_PART_1_11_PROGRAM
+#pragma once
 
-namespace learncpp::part_1_11 {
+namespace learncpp::chapter_1::part_11 {
 auto double_that_number(int number) -> int;
 auto double_console_input() -> int;
-} // namespace learncpp::part_1_11
-
-#endif
+} // namespace learncpp::chapter_1::part_11
