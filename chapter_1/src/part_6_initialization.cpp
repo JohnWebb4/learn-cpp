@@ -17,4 +17,4 @@ auto print_cpp_version(const char *executable) -> int {
 
   return 0;
 }
-} // namespace learncpp::part_1_6
+} // namespace learncpp::chapter_1::part_6

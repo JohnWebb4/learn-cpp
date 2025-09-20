@@ -10,4 +10,4 @@ auto double_console_input() -> int {
 
   return double_that_number(num);
 }
-} // namespace learncpp::part_1_11
+} // namespace learncpp::chapter_1::part_11
