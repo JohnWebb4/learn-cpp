@@ -1,7 +1,6 @@
 #include "summary.h"
 
 #include <iostream>
-
 #include <gtest/gtest.h>
 
 TEST(Chapter2, Summary) {
