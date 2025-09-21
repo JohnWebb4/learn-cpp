@@ -1,31 +1,34 @@
 {
-    "configurations": [
-        {
-            "name": "C/C++: clang build and debug active file",
-            "type": "cppdbg",
-            "request": "launch",
-            "program": "${fileDirname}/${fileBasenameNoExtension}",
-            "args": [],
-            "stopAtEntry": false,
-            "cwd": "${fileDirname}",
-            "environment": [],
-            "externalConsole": false,
-            "MIMode": "lldb",
-            "preLaunchTask": "C/C++: clang build active file"
-        },
-        // {
-        //     "name": "C/C++: g++ build and debug active file",
-        //     "type": "cppdbg",
-        //     "request": "launch",
-        //     "program": "${fileDirname}/${fileBasenameNoExtension}",
-        //     "args": [],
-        //     "stopAtEntry": false,
-        //     "cwd": "${fileDirname}",
-        //     "environment": [],
-        //     "externalConsole": false,
-        //     "MIMode": "lldb",
-        //     "preLaunchTask": "C/C++: g++ build active file"
-        // }
-    ],
-    "version": "2.0.0"
+  "configurations": [
+    {
+      "type": "cmake",
+      "name": "CMake: Install with Conan",
+      "request": "launch",
+      "scriptPath": "${workspaceFolder}/build/cmake_install.cmake",
+      "cmakeDebugType": "script",
+      "preLaunchTask": "Install with CMake / Conan"
+    },
+    {
+      "type": "cmake",
+      "request": "launch",
+      "name": "CMake: Build with Conan",
+      "cmakeDebugType": "script",
+      "scriptPath": "${workspaceFolder}/build/cmake_install.cmake",
+      "preLaunchTask": "Build with CMake / Conan"
+    },
+    {
+      "name": "(lldb) Launch",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/chapter_1/chapter_1_test",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}/build",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "lldb",
+      "preLaunchTask": "Build with CMake / Conan"
+    }
+  ],
+  "version": "2.0.0"
 }
