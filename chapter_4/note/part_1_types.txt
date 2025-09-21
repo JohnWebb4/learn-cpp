@@ -1,0 +1,4 @@
+# Types
+
+- There's no fundamental string type, but the STD library has one.
+- POSIX reserves the '_t' suffix for types (ie. char_t'). Don't use _t for coding.
