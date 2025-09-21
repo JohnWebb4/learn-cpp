@@ -1,0 +1,8 @@
+# Part 8: Floats
+
+- Avoid `long double`. Format and size depends on OS.
+- Float consts always include the decimal
+- Float is 4 bytes. Double is 8.
+- Rough estimate: Precision is twice the number of bytes. Float: 8 and Double 16
+- Just use double unless you really care.
+- Inf and NaN exist for floating point arithmetic

@@ -1,0 +1,3 @@
+# Part 9: Bools
+
+- Use std::boolalpha, when printing to the console
