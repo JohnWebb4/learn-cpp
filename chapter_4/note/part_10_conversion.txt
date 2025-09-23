@@ -1,0 +1,6 @@
+# Part 10: Conversion
+
+- If you 100% know the type, convert types using static_cast<type>(value). Crashes if failed.
+- If you aren't sure of the type, convert types using dynamic_cast<type>(value). Returns null or error if fails
+- Don't use const_cast. Forces things as const when they aren't. Basically never worth it.
+- Don't use C style casting (ie. (int)5.5). It could either be static_cast, const_cast and reinterpret_cast. Better to be explicit.

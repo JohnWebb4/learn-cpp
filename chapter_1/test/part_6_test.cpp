@@ -1,8 +1,9 @@
+#include "part_6_initialization.h"
+
 #include <gtest/gtest.h>
+
 #include <iostream>
 #include <string>
-
-#include "part_6_initialization.h"
 
 // Demonstrate some basic assertions.
 TEST(Chapter1, Part6) {

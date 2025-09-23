@@ -1,0 +1,10 @@
+# Part 11: Chars
+
+- ASCII is very basic and only 1 byte
+- UTF-32 is the standard. Encompasses most languages. 4 bytes.
+- UTF-32 supports ancient languages, symbols and mathematical scripts.
+- Reduced versions of UTF-32 are UTF-16 and UTF-8. To include what most people need.
+  - 1 UTF-8 is ISO-8859 (ASCII)
+  - 1 UTF-16 is Basic Multilingual Plane (BMP). Most modern languages
+  - Reduced versions support chaining. 4 UTF-8 chars can represent all UTF-32. 2 UTF-16 represent all
+    - Chaining uses 1.5 times more memory. If you may need UTF-32, use that.
