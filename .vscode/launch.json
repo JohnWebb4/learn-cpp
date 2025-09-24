@@ -1,22 +1,6 @@
 {
   "configurations": [
     {
-      "type": "cmake",
-      "name": "CMake: Install with Conan",
-      "request": "launch",
-      "scriptPath": "${workspaceFolder}/build/cmake_install.cmake",
-      "cmakeDebugType": "script",
-      "preLaunchTask": "Install with CMake / Conan"
-    },
-    {
-      "type": "cmake",
-      "request": "launch",
-      "name": "CMake: Build with Conan",
-      "cmakeDebugType": "script",
-      "scriptPath": "${workspaceFolder}/build/cmake_install.cmake",
-      "preLaunchTask": "Build with CMake / Conan"
-    },
-    {
       "name": "(lldb) Launch",
       "type": "cppdbg",
       "request": "launch",

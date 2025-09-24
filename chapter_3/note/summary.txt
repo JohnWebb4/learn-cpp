@@ -1,0 +1,27 @@
+# Chapter 3 Summary
+
+- CMake is the standard tool for building
+- Conan is alright for package management
+- Prefer out of source builds (dedicated ./build folder)
+- CMake XCode generator stinks. Only for ejecting entirely.
+- XCode
+  - Doesn't work with clang-tidy. No reliable way to create the compile_commands.json
+  - Can work with gtest if you set PRE_TEST
+- Visual Studio
+  - Only on Windows, but best option
+  - Need to configure intellisense for .clang-tidy
+- Visual Studio Code
+  - More lightweight but works pretty well
+  - c_cpp_properties.json
+    - Store IDE configs (includePaths, cppStandard, etc.)
+      - If using Conan, make sure to include `~/.conan2/**` in include path
+    - Mac Framework path is nice for standard library
+  - tasks.json
+    - All your cmake install / build commands (cmake --build ...)
+    - You can directly run these
+  - launch.json
+    - Launching the debugger
+    - Mac: LLDB
+    - Working directory should be build folder
+    - Program should be whatever executable you want to test against
+      - This includes ctest executables
