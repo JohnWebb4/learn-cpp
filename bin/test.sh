@@ -1,5 +1,5 @@
 # /usr/bin/env sh
 
 pushd ./build
-ctest -C Debug
+ctest -C Debug $@
 popd

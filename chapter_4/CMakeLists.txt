@@ -1,11 +1,13 @@
 add_library(chapter_4 STATIC
   src/part_12_conversion.cpp
+  src/summary.cpp
 )
 target_link_libraries(chapter_4 PRIVATE common)
 target_include_directories(chapter_4 PUBLIC "./src")
 
 add_executable(chapter_4_test
   test/part_12_conversion_test.cpp
+  test/summary_test.cpp
 )
 
 target_link_libraries(chapter_4_test PRIVATE common)
