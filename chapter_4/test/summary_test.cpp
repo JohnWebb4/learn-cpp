@@ -17,4 +17,11 @@ TEST(Chapter4, Summary) {
                       2.0F, Operand('*'), 3.0F));
   ASSERT_EQ(2.0F, learn_cpp::chapter_4::summary::evaluate_expression(
                       6.0F, Operand('/'), 3.0F));
+
+  ASSERT_FLOAT_EQ(
+      100.0F, learn_cpp::chapter_4::summary::get_height_at_time(100.0F, 0.0F));
+  ASSERT_FLOAT_EQ(
+      95.1F, learn_cpp::chapter_4::summary::get_height_at_time(100.0F, 1.0F));
+  ASSERT_FLOAT_EQ(
+      21.6F, learn_cpp::chapter_4::summary::get_height_at_time(100.0F, 4.0F));
 } // namespace learn_cpp::chapter_4::summary

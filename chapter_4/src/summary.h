@@ -12,4 +12,6 @@ private:
 
 auto evaluate_expression(float number_1, Operand operand, float number_2)
     -> float;
+
+auto get_height_at_time(float height, float time) -> float;
 } // namespace learn_cpp::chapter_4::summary
