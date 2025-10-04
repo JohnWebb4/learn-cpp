@@ -1,0 +1,12 @@
+# Part 1: Constants
+
+- Const makes a variable a constant
+- For language limitations, they're used everywhere.
+- For that reason, they follow normal variable naming. No upper snake case.
+- Don't use const in function parameters or return types. Modern C++ handles it (pass by value copies).
+- Default to making something const until you need to mutate it.
+- Don't use preprocessor macros. Difficult to debug since they are swapped before compliation
+
+- Volatile is another keyword. Means the variable's memory will be modified by an outside program.
+- Prevents the compiler from optimizing that variable. Can't predict how the other program will change it.
+- I will mostly likely never need to use volatile

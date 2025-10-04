@@ -1,0 +1,6 @@
+# Part 5: Constant Expressions
+
+- Sometimes we need to determine some information about the compiler (linux, x86, bit width, etc.)
+- We don't want to run that evertime the program boots.
+- We can instead define code that gets evaluated when the program is compiled.
+- Mark functions as variables as constexp, if you want this behaviour
