@@ -1,0 +1,9 @@
+# Part 7 String
+
+- C strings have a lot of memory issues
+- C++ std::string was added to better manage memory
+- std::string makes a copy and is very expensive every time it's copied
+- Passing a std::string by value to a function is a very bad idea
+- std::string_view was added to borrow a read only version of strings
+- Prefer std::string_view for readonly parameters. You must understand the lifetime of the underling string
+- Prefer string for return types. Move semantics make life easier
